@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -o simba-android.zip -d src
+      - run: unzip -o simba.1.1-android.zip -d src
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
